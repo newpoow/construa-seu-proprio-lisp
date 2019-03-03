@@ -11,5 +11,8 @@ rem .\bin\parsing.exe
 rem gcc -std=c99 -Wall .\src\mpc.c .\src\evaluation.c -o .\bin\evaluation.exe
 rem .\bin\evaluation.exe
 
-gcc -std=c99 -Wall .\src\mpc.c .\src\error_handling.c -o .\bin\error_handling.exe
-.\bin\error_handling.exe
+rem gcc -std=c99 -Wall .\src\mpc.c .\src\error_handling.c -o .\bin\error_handling.exe
+rem .\bin\error_handling.exe
+
+gcc -std=c99 -Wall .\src\mpc.c .\src\s_expressions.c -o .\bin\s_expressions.exe
+.\bin\s_expressions.exe
