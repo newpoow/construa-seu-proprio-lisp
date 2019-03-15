@@ -17,5 +17,8 @@ rem .\bin\error_handling.exe
 rem gcc -std=c99 -Wall .\src\mpc.c .\src\s_expressions.c -o .\bin\s_expressions.exe
 rem .\bin\s_expressions.exe
 
-gcc -std=c99 -Wall .\src\mpc.c .\src\q_expressions.c -o .\bin\q_expressions.exe
-.\bin\q_expressions.exe
+rem gcc -std=c99 -Wall .\src\mpc.c .\src\q_expressions.c -o .\bin\q_expressions.exe
+rem .\bin\q_expressions.exe
+
+gcc -std=c99 -Wall .\src\mpc.c .\src\variables.c -o .\bin\variables.exe
+.\bin\variables.exe
