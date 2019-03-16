@@ -20,5 +20,8 @@ rem .\bin\s_expressions.exe
 rem gcc -std=c99 -Wall .\src\mpc.c .\src\q_expressions.c -o .\bin\q_expressions.exe
 rem .\bin\q_expressions.exe
 
-gcc -std=c99 -Wall .\src\mpc.c .\src\variables.c -o .\bin\variables.exe
-.\bin\variables.exe
+rem gcc -std=c99 -Wall .\src\mpc.c .\src\variables.c -o .\bin\variables.exe
+rem .\bin\variables.exe
+
+gcc -std=c99 -Wall .\src\mpc.c .\src\functions.c -o .\bin\functions.exe
+.\bin\functions.exe
