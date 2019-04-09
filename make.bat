@@ -26,5 +26,8 @@ rem .\bin\variables.exe
 rem gcc -std=c99 -Wall .\src\mpc.c .\src\functions.c -o .\bin\functions.exe
 rem .\bin\functions.exe
 
-gcc -std=c99 -Wall .\src\mpc.c .\src\conditionals.c -o .\bin\conditionals.exe
-.\bin\conditionals.exe
+rem gcc -std=c99 -Wall .\src\mpc.c .\src\conditionals.c -o .\bin\conditionals.exe
+rem .\bin\conditionals.exe
+
+gcc -std=c99 -Wall .\src\mpc.c .\src\strings.c -o .\bin\strings.exe
+.\bin\strings.exe
